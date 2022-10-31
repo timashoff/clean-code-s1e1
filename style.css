@@ -37,7 +37,7 @@
 .task {
   width: 56%;
   display: inline-block;
-  flex-grow: 1
+  flex-grow: 1;
 }
 
 .task-wrapper {
@@ -136,7 +136,7 @@
 }
 
 .todo-task .input-task {
-  width: 226px
+  width: 226px;
 }
 
 .delete-img {
@@ -157,12 +157,12 @@
 
 /* Edit Task */
 .todo-task .input-task {
-  display: none
+  display: none;
 }
 
 .edit-mode .input-task  {
   display: inline-block;
-  width: 224px
+  width: 224px;
 }
 
 .edit-mode .label-task {
