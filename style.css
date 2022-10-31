@@ -44,20 +44,27 @@
   display: flex;
 }
 
-#incomplete, #completed {
+#incomplete, 
+#completed {
   margin: 0;
   padding: 0px;
 }
 
-.todo-task, .title {
+.todo-task, 
+.title {
   list-style: none;
 }
 
-.task, .edit, .delete, .add-btn {
+.task, 
+.edit, 
+.delete, 
+.add-btn {
   outline: none;
 }
 
-.edit, .delete, .add-btn {
+.edit, 
+.delete, 
+.add-btn {
   background: none;
   border: 0px;
   color: #888;
@@ -67,7 +74,9 @@
   cursor: pointer;
 }
 
-.edit:hover, .delete:hover, .add-btn:hover {
+.edit:hover, 
+.delete:hover, 
+.add-btn:hover {
   color: #3a3a3a;
 }
 
